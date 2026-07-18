@@ -1,6 +1,6 @@
-import { Redirect } from 'expo-router';
+import React from 'react';
+import DocumentViewer from '../components/DocumentViewer';
 
 export default function IndexPage() {
-  // Redirect to the privacy policy page by default
-  return <Redirect href="/privacy" />;
+  return <DocumentViewer documentType="privacy_policy" />;
 }

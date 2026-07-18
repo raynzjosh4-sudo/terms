@@ -12,7 +12,7 @@ export default function RootLayout() {
   const isMobile = width < 768;
 
   const links = [
-    { name: 'Privacy Policy', path: '/privacy' },
+    { name: 'Privacy Policy', path: '/' },
     { name: 'Terms of Service', path: '/terms' },
   ];
 
